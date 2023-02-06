@@ -6,7 +6,6 @@ const bodyParser = require("body-parser")
 const cors = require("cors")
 const mysql = require("mysql")
 const moment = require("moment")
-const { response } = require("express")
 
 const app = express()
 app.use(express.json())
